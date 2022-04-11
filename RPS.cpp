@@ -12,7 +12,7 @@ int main(){
 	string me,pc;
 	cin>>me;
 	
-	int pcr=rand()%3+1;
+	int pcr=rand()%5+1;
 	
 
 	if (me == "Rock"){
