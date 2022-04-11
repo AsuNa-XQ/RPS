@@ -41,6 +41,33 @@ int main(){
 		pc="Scissors";
 		cout<<"PC picked Scissors" << endl;
 	}
+		if (pc==me){
+		cout<<"draw"<<endl;
+	}
+	else if (me=="Rock"){
+		if (pc=="Paper"){
+			cout<<"you lose"<<endl;
+		}
+		else if (pc=="Scissors"){
+			cout<<"you win"<<endl;
+		}
+		}
+	else if (me=="Paper"){
+		if (pc=="Rock"){
+			cout<<"you win"<<endl;
+		}
+		else if (pc=="Scissors"){
+			cout<<"you lose"<<endl;
+		}
+		}	
+	else if (me=="Scissors"){
+		if (pc=="Paper"){
+			cout<<"you win"<<endl;
+		}
+		else if (pc=="Rock"){
+			cout<<"you lose"<<endl;
+		}
+		}			
 
 	}
 	
