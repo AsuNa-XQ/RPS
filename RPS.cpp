@@ -28,6 +28,19 @@ int main(){
 		cout<<"try again" << endl;
 		return 0;
 	}
+	
+	if (pcr == 1){
+		pc="Rock";
+		cout<<"PC picked Rock" << endl;
+	}
+	else if (pcr == 2){
+		pc="Paper";
+		cout<<"PC picked Paper" << endl;
+	}
+	else if (pcr == 3){
+		pc="Scissors";
+		cout<<"PC picked Scissors" << endl;
+	}
 
 	}
 	
