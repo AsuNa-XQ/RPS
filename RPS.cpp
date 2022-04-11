@@ -56,11 +56,11 @@ int main(){
 		if (pc=="Rock"){
 			cout<<"you win"<<endl;
 		}
-		else if (pc=="Scissors"){
+		else if (pc=="Rock"){
 			cout<<"you lose"<<endl;
 		}
 		}	
-	else if (me=="Scissors"){
+	else if (me=="Paper"){
 		if (pc=="Paper"){
 			cout<<"you win"<<endl;
 		}
